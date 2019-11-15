@@ -49,7 +49,8 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide"><img src="img/slider/slider-1.jpg" alt="">
 						<div class="slider_text">
-							<img src="img/slider/slider-content.png" alt="">
+                            <img src="img/slider/slider-content.png" alt="">
+                            <img src="img/slider/slider-content.png" alt="">
 						</div>
 					</div>
 					<div class="swiper-slide"><img src="img/slider/slider-2.jpg" alt="">
