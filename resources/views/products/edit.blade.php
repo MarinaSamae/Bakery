@@ -1,11 +1,14 @@
 @extends('products.layout')
-   
+
 @section('content')
+<div class="jumbotron text-center">
+<section class="menu_area pad_top">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>EDIT MENU</h2> 
     <div class="row">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
-                <h2>Edit Product</h2>
-            </div>
+           
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
             </div>

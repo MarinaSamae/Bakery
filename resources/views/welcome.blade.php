@@ -32,6 +32,8 @@
         			</div>
         		</div>
         		<div class="float-right">
+        			<a class="main_btn" href="/products">View Full Menu</a>
+        		</div>
 
 
 

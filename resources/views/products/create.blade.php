@@ -1,17 +1,20 @@
 @extends('products.layout')
-  
+
 @section('content')
+<div class="jumbotron text-center">
+<section class="menu_area pad_top">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>CREATE MENU</h2>
+    </div>
 <div class="row">
-    <div class="col-lg-12 margin-tb">
-        <div class="pull-left">
-            <h2>Add New Product</h2>
-        </div>
+        
         <div class="pull-right">
             <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
         </div>
     </div>
-</div>
-   
+<div class='detail'>
+    <div class='detail-container'>
 @if ($errors->any())
     <div class="alert alert-danger">
         <strong>Whoops!</strong> There were some problems with your input.<br><br>
